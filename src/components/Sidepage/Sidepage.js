@@ -1,9 +1,9 @@
 import React ,{useState , useEffect , useRef } from 'react';
 import './Sidepage.css';
-import Userprofile from './Userprofile';
-import Settingpage from './Settingpage';
+import Userprofile from '../Userprofile/Userprofile';
+import Settingpage from '../Settings/Settingpage';
 import { CgMoreVertical } from "react-icons/cg";
-import db from '../firebase'
+import db from '../../firebase'
 
 
 function Sidepage(props) {

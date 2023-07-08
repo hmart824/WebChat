@@ -1,7 +1,7 @@
 import React from 'react';
-import Sidepage from './Sidepage';
+import Sidepage from '../Sidepage/Sidepage';
 import './Home.css';
-import Chatcontainer from './Chatcontainer';
+import Chatcontainer from '../Chatcontainer/Chatcontainer';
 
 function Chatpage(props) {
   return (

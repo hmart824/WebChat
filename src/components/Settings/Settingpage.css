@@ -44,12 +44,10 @@
 .content{
     height: 53px;
     display: flex;
-    padding: 5px 0 5px 10px;
+    margin: 5px 8px;
     align-items: center;
     background: white;   
     cursor: pointer;
-    /* border: 2px solid blue; */
-    width: 100%;
     border-bottom: 1px solid grey;
 }
 .icon{

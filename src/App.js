@@ -1,15 +1,15 @@
 import './App.css';
 import { useState } from 'react';
-import Home from './components/Home';
-import Sidepage from './components/Sidepage';
-import Chatcontainer from './components/Chatcontainer';
+import Home from './components/Home/Home';
+import Sidepage from './components/Sidepage/Sidepage';
+import Chatcontainer from './components/Chatcontainer/Chatcontainer';
 import {
   BrowserRouter as Router,
   Routes,
   Route
 
 } from "react-router-dom";
-import Loginpage from './components/Loginpage';
+import Loginpage from './components/Login/Loginpage';
 import { auth } from './firebase';
 
 function App() {

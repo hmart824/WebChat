@@ -3,9 +3,9 @@ import { useNavigate , useParams } from 'react-router';
 import { IoSendSharp } from "react-icons/io5";
 import { BiArrowBack } from "react-icons/bi";
 import './Chatcontainer.css'
-import Chatmessage from './Chatmessage'
+import Chatmessage from '../Chatmessage/Chatmessage'
 import EmojiPicker from 'emoji-picker-react';
-import db from '../firebase';
+import db from '../../firebase';
 import firebase from 'firebase';
 
 

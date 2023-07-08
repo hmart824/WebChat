@@ -1,6 +1,6 @@
 import React from 'react';
 import { Navigate } from 'react-router';
-import db,{ auth, googleProvider } from '../firebase';
+import db,{ auth, googleProvider } from '../../firebase';
 import './Loginpage.css'
 
 function Loginpage(props) {
